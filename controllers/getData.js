@@ -3,7 +3,7 @@ let upload = multer();
 const mongoose = require('mongoose');
 //change the url to reach your mongoDB
 //mongoose.connect('mongodb://user:password.mlab.com:53960/DBnamee');
-mongoose.connect('mongodb://natitwi:nati8848@ds253960.mlab.com:53960/testusers');
+
 
 const Schema = mongoose.Schema,
     ObjectId = Schema.ObjectId;
